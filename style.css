@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'sans-serif';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #E0FFFF;
+}
+
+.my_container {
+    width: 350px;
+    height: 500px;
+    background: #004757;
+
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #FFFF;
+    font-size: 23px;
+}
+
+.my_container h2 {
+    position: relative;
+    margin: 32px 0;
+    text-align: center;
+    font-size: 29px;
+}
+
+.circle {
+    position: relative;
+    width: 160px;
+    height: 160px;
+
+    background: #E0FFFF;
+
+    border-radius: 45%;
+    border: 6px solid black;
+
+    text-align: center;
+}
+
+.circle p {
+    color: black;
+    font-size: 28px;
+    text-align: center;
+
+    margin: 38% 0;
+}
+
+button {
+    text-align: center;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.timer_buttons {
+    margin-top: 100px;
+    position: relative;
+}
+
+.playButton {
+    line-height: 15px;
+    border-radius: 50%;
+    background: #FF4500;
+    cursor: pointer;
+    padding: 23px;
+    color: white;
+}
+
+.resetButton {
+    background: none;
+    cursor: pointer;
+    border: none;
+    padding-left: 12px;
+    color: white;
+}
+
+.my_footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    background: #004757;
+    color: #FFFAFA;
+    font-size: 20px;
+}
+
+.tab {
+    margin-left: 37px;
+    margin-top: 10px;
+}
